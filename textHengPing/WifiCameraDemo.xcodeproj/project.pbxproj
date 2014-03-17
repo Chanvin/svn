@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E02EF4D18D2D7EB006FAB48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E02EF4C18D2D7EB006FAB48 /* Foundation.framework */; };
+		8E02EF4F18D2D7EB006FAB48 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E02EF4E18D2D7EB006FAB48 /* CoreGraphics.framework */; };
+		8E02EF5118D2D7EB006FAB48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E02EF5018D2D7EB006FAB48 /* UIKit.framework */; };
+		8E02EF5718D2D7EB006FAB48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E02EF5518D2D7EB006FAB48 /* InfoPlist.strings */; };
+		8E02EF5918D2D7EB006FAB48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E02EF5818D2D7EB006FAB48 /* main.m */; };
+		8E02EF5D18D2D7EB006FAB48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E02EF5C18D2D7EB006FAB48 /* AppDelegate.m */; };
+		8E02EF5F18D2D7EB006FAB48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E02EF5E18D2D7EB006FAB48 /* Images.xcassets */; };
+		8E02EF6618D2D7EB006FAB48 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E02EF6518D2D7EB006FAB48 /* XCTest.framework */; };
+		8E02EF6718D2D7EB006FAB48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E02EF4C18D2D7EB006FAB48 /* Foundation.framework */; };
+		8E02EF6818D2D7EB006FAB48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E02EF5018D2D7EB006FAB48 /* UIKit.framework */; };
+		8E02EF7018D2D7EB006FAB48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E02EF6E18D2D7EB006FAB48 /* InfoPlist.strings */; };
+		8E02EF7218D2D7EB006FAB48 /* WifiCameraDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E02EF7118D2D7EB006FAB48 /* WifiCameraDemoTests.m */; };
+		8E02EF8018D2D827006FAB48 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E02EF7E18D2D827006FAB48 /* RootViewController.m */; };
+		8E02EF8118D2D827006FAB48 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E02EF7F18D2D827006FAB48 /* RootViewController.xib */; };
+		8E02EF8918D2DACE006FAB48 /* PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E02EF8418D2DACE006FAB48 /* PKRevealController.m */; };
+		8E02EF8A18D2DACE006FAB48 /* PKRevealControllerContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E02EF8618D2DACE006FAB48 /* PKRevealControllerContainerView.m */; };
+		8E02EF8B18D2DACE006FAB48 /* UIViewController+PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E02EF8818D2DACE006FAB48 /* UIViewController+PKRevealController.m */; };
+		8E02EF9418D2DAED006FAB48 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E02EF9218D2DAED006FAB48 /* RightViewController.m */; };
+		8E02EF9518D2DAED006FAB48 /* RightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E02EF9318D2DAED006FAB48 /* RightViewController.xib */; };
+		8E02EF9C18D2E490006FAB48 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E02EF9A18D2E490006FAB48 /* LeftViewController.m */; };
+		8E02EF9D18D2E490006FAB48 /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E02EF9B18D2E490006FAB48 /* LeftViewController.xib */; };
+		8E9B617018D691EA00886E43 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B616E18D691EA00886E43 /* SetViewController.m */; };
+		8E9B617118D691EA00886E43 /* SetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B616F18D691EA00886E43 /* SetViewController.xib */; };
+		8E9B617518D691FE00886E43 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B617318D691FE00886E43 /* PhotoViewController.m */; };
+		8E9B617618D691FE00886E43 /* PhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B617418D691FE00886E43 /* PhotoViewController.xib */; };
+		8E9B617A18D6921300886E43 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B617818D6921300886E43 /* CameraViewController.m */; };
+		8E9B617B18D6921300886E43 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B617918D6921300886E43 /* CameraViewController.xib */; };
+		8E9B617F18D6922C00886E43 /* StateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B617D18D6922C00886E43 /* StateViewController.m */; };
+		8E9B618018D6922C00886E43 /* StateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B617E18D6922C00886E43 /* StateViewController.xib */; };
+		8E9B619318D6988A00886E43 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B619118D6988A00886E43 /* PhotoCell.m */; };
+		8E9B619418D6988A00886E43 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B619218D6988A00886E43 /* PhotoCell.xib */; };
+		8E9B619718D699DA00886E43 /* Shop.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B619618D699DA00886E43 /* Shop.m */; };
+		8E9B61AB18D699E700886E43 /* baby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B619918D699E700886E43 /* baby.jpg */; };
+		8E9B61AC18D699E700886E43 /* bag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B619A18D699E700886E43 /* bag.jpg */; };
+		8E9B61AD18D699E700886E43 /* book.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B619B18D699E700886E43 /* book.jpg */; };
+		8E9B61AE18D699E700886E43 /* buty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B619C18D699E700886E43 /* buty.jpg */; };
+		8E9B61AF18D699E700886E43 /* clean.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B619D18D699E700886E43 /* clean.jpg */; };
+		8E9B61B018D699E700886E43 /* clothe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B619E18D699E700886E43 /* clothe.jpg */; };
+		8E9B61B118D699E700886E43 /* decoration.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B619F18D699E700886E43 /* decoration.jpg */; };
+		8E9B61B218D699E700886E43 /* food.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B61A018D699E700886E43 /* food.jpg */; };
+		8E9B61B318D699E700886E43 /* home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B61A118D699E700886E43 /* home.jpg */; };
+		8E9B61B418D699E700886E43 /* knife.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B61A218D699E700886E43 /* knife.jpg */; };
+		8E9B61B518D699E700886E43 /* life.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B61A318D699E700886E43 /* life.jpg */; };
+		8E9B61B618D699E700886E43 /* mechine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B61A418D699E700886E43 /* mechine.jpg */; };
+		8E9B61B718D699E700886E43 /* pet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B61A518D699E700886E43 /* pet.jpg */; };
+		8E9B61B818D699E700886E43 /* phone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B61A618D699E700886E43 /* phone.jpg */; };
+		8E9B61B918D699E700886E43 /* shops.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B61A718D699E700886E43 /* shops.plist */; };
+		8E9B61BA18D699E700886E43 /* timeline_image_loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B61A818D699E700886E43 /* timeline_image_loading.png */; };
+		8E9B61BB18D699E700886E43 /* timeline_image_loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B61A918D699E700886E43 /* timeline_image_loading@2x.png */; };
+		8E9B61BC18D699E700886E43 /* toy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9B61AA18D699E700886E43 /* toy.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E02EF6918D2D7EB006FAB48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E02EF4118D2D7EB006FAB48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E02EF4818D2D7EB006FAB48;
+			remoteInfo = WifiCameraDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E02EF4918D2D7EB006FAB48 /* WifiCameraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WifiCameraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E02EF4C18D2D7EB006FAB48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E02EF4E18D2D7EB006FAB48 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8E02EF5018D2D7EB006FAB48 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E02EF5418D2D7EB006FAB48 /* WifiCameraDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WifiCameraDemo-Info.plist"; sourceTree = "<group>"; };
+		8E02EF5618D2D7EB006FAB48 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E02EF5818D2D7EB006FAB48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E02EF5A18D2D7EB006FAB48 /* WifiCameraDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WifiCameraDemo-Prefix.pch"; sourceTree = "<group>"; };
+		8E02EF5B18D2D7EB006FAB48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E02EF5C18D2D7EB006FAB48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E02EF5E18D2D7EB006FAB48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8E02EF6418D2D7EB006FAB48 /* WifiCameraDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WifiCameraDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E02EF6518D2D7EB006FAB48 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8E02EF6D18D2D7EB006FAB48 /* WifiCameraDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WifiCameraDemoTests-Info.plist"; sourceTree = "<group>"; };
+		8E02EF6F18D2D7EB006FAB48 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E02EF7118D2D7EB006FAB48 /* WifiCameraDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WifiCameraDemoTests.m; sourceTree = "<group>"; };
+		8E02EF7D18D2D827006FAB48 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		8E02EF7E18D2D827006FAB48 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		8E02EF7F18D2D827006FAB48 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		8E02EF8318D2DACE006FAB48 /* PKRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKRevealController.h; sourceTree = "<group>"; };
+		8E02EF8418D2DACE006FAB48 /* PKRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKRevealController.m; sourceTree = "<group>"; };
+		8E02EF8518D2DACE006FAB48 /* PKRevealControllerContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKRevealControllerContainerView.h; sourceTree = "<group>"; };
+		8E02EF8618D2DACE006FAB48 /* PKRevealControllerContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKRevealControllerContainerView.m; sourceTree = "<group>"; };
+		8E02EF8718D2DACE006FAB48 /* UIViewController+PKRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PKRevealController.h"; sourceTree = "<group>"; };
+		8E02EF8818D2DACE006FAB48 /* UIViewController+PKRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PKRevealController.m"; sourceTree = "<group>"; };
+		8E02EF9118D2DAED006FAB48 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		8E02EF9218D2DAED006FAB48 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		8E02EF9318D2DAED006FAB48 /* RightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightViewController.xib; sourceTree = "<group>"; };
+		8E02EF9918D2E490006FAB48 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		8E02EF9A18D2E490006FAB48 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		8E02EF9B18D2E490006FAB48 /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
+		8E9B616D18D691EA00886E43 /* SetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
+		8E9B616E18D691EA00886E43 /* SetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
+		8E9B616F18D691EA00886E43 /* SetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetViewController.xib; sourceTree = "<group>"; };
+		8E9B617218D691FE00886E43 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		8E9B617318D691FE00886E43 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		8E9B617418D691FE00886E43 /* PhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoViewController.xib; sourceTree = "<group>"; };
+		8E9B617718D6921300886E43 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		8E9B617818D6921300886E43 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		8E9B617918D6921300886E43 /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		8E9B617C18D6922C00886E43 /* StateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateViewController.h; sourceTree = "<group>"; };
+		8E9B617D18D6922C00886E43 /* StateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateViewController.m; sourceTree = "<group>"; };
+		8E9B617E18D6922C00886E43 /* StateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StateViewController.xib; sourceTree = "<group>"; };
+		8E9B619018D6988A00886E43 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		8E9B619118D6988A00886E43 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		8E9B619218D6988A00886E43 /* PhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		8E9B619518D699DA00886E43 /* Shop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shop.h; sourceTree = "<group>"; };
+		8E9B619618D699DA00886E43 /* Shop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shop.m; sourceTree = "<group>"; };
+		8E9B619918D699E700886E43 /* baby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baby.jpg; sourceTree = "<group>"; };
+		8E9B619A18D699E700886E43 /* bag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bag.jpg; sourceTree = "<group>"; };
+		8E9B619B18D699E700886E43 /* book.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = book.jpg; sourceTree = "<group>"; };
+		8E9B619C18D699E700886E43 /* buty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buty.jpg; sourceTree = "<group>"; };
+		8E9B619D18D699E700886E43 /* clean.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clean.jpg; sourceTree = "<group>"; };
+		8E9B619E18D699E700886E43 /* clothe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clothe.jpg; sourceTree = "<group>"; };
+		8E9B619F18D699E700886E43 /* decoration.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = decoration.jpg; sourceTree = "<group>"; };
+		8E9B61A018D699E700886E43 /* food.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = food.jpg; sourceTree = "<group>"; };
+		8E9B61A118D699E700886E43 /* home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home.jpg; sourceTree = "<group>"; };
+		8E9B61A218D699E700886E43 /* knife.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = knife.jpg; sourceTree = "<group>"; };
+		8E9B61A318D699E700886E43 /* life.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = life.jpg; sourceTree = "<group>"; };
+		8E9B61A418D699E700886E43 /* mechine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mechine.jpg; sourceTree = "<group>"; };
+		8E9B61A518D699E700886E43 /* pet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pet.jpg; sourceTree = "<group>"; };
+		8E9B61A618D699E700886E43 /* phone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = phone.jpg; sourceTree = "<group>"; };
+		8E9B61A718D699E700886E43 /* shops.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shops.plist; sourceTree = "<group>"; };
+		8E9B61A818D699E700886E43 /* timeline_image_loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeline_image_loading.png; sourceTree = "<group>"; };
+		8E9B61A918D699E700886E43 /* timeline_image_loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timeline_image_loading@2x.png"; sourceTree = "<group>"; };
+		8E9B61AA18D699E700886E43 /* toy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toy.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E02EF4618D2D7EB006FAB48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E02EF4F18D2D7EB006FAB48 /* CoreGraphics.framework in Frameworks */,
+				8E02EF5118D2D7EB006FAB48 /* UIKit.framework in Frameworks */,
+				8E02EF4D18D2D7EB006FAB48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E02EF6118D2D7EB006FAB48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E02EF6618D2D7EB006FAB48 /* XCTest.framework in Frameworks */,
+				8E02EF6818D2D7EB006FAB48 /* UIKit.framework in Frameworks */,
+				8E02EF6718D2D7EB006FAB48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E02EF4018D2D7EB006FAB48 = {
+			isa = PBXGroup;
+			children = (
+				8E02EF5218D2D7EB006FAB48 /* WifiCameraDemo */,
+				8E02EF6B18D2D7EB006FAB48 /* WifiCameraDemoTests */,
+				8E02EF4B18D2D7EB006FAB48 /* Frameworks */,
+				8E02EF4A18D2D7EB006FAB48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E02EF4A18D2D7EB006FAB48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E02EF4918D2D7EB006FAB48 /* WifiCameraDemo.app */,
+				8E02EF6418D2D7EB006FAB48 /* WifiCameraDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E02EF4B18D2D7EB006FAB48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E02EF4C18D2D7EB006FAB48 /* Foundation.framework */,
+				8E02EF4E18D2D7EB006FAB48 /* CoreGraphics.framework */,
+				8E02EF5018D2D7EB006FAB48 /* UIKit.framework */,
+				8E02EF6518D2D7EB006FAB48 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E02EF5218D2D7EB006FAB48 /* WifiCameraDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8E02EF5B18D2D7EB006FAB48 /* AppDelegate.h */,
+				8E02EF5C18D2D7EB006FAB48 /* AppDelegate.m */,
+				8E02EF7B18D2D800006FAB48 /* Controllers */,
+				8E9B615318D6914200886E43 /* RightViewControllers */,
+				8E02EF7C18D2D80B006FAB48 /* Frame */,
+				8E02EF5E18D2D7EB006FAB48 /* Images.xcassets */,
+				8E02EF5318D2D7EB006FAB48 /* Supporting Files */,
+			);
+			path = WifiCameraDemo;
+			sourceTree = "<group>";
+		};
+		8E02EF5318D2D7EB006FAB48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E02EF5418D2D7EB006FAB48 /* WifiCameraDemo-Info.plist */,
+				8E02EF5518D2D7EB006FAB48 /* InfoPlist.strings */,
+				8E02EF5818D2D7EB006FAB48 /* main.m */,
+				8E02EF5A18D2D7EB006FAB48 /* WifiCameraDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E02EF6B18D2D7EB006FAB48 /* WifiCameraDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E02EF7118D2D7EB006FAB48 /* WifiCameraDemoTests.m */,
+				8E02EF6C18D2D7EB006FAB48 /* Supporting Files */,
+			);
+			path = WifiCameraDemoTests;
+			sourceTree = "<group>";
+		};
+		8E02EF6C18D2D7EB006FAB48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E02EF6D18D2D7EB006FAB48 /* WifiCameraDemoTests-Info.plist */,
+				8E02EF6E18D2D7EB006FAB48 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E02EF7B18D2D800006FAB48 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E02EF7D18D2D827006FAB48 /* RootViewController.h */,
+				8E02EF7E18D2D827006FAB48 /* RootViewController.m */,
+				8E02EF7F18D2D827006FAB48 /* RootViewController.xib */,
+				8E02EF9918D2E490006FAB48 /* LeftViewController.h */,
+				8E02EF9A18D2E490006FAB48 /* LeftViewController.m */,
+				8E02EF9B18D2E490006FAB48 /* LeftViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8E02EF7C18D2D80B006FAB48 /* Frame */ = {
+			isa = PBXGroup;
+			children = (
+				8E02EF8218D2DAC4006FAB48 /* PKRevealController */,
+			);
+			name = Frame;
+			sourceTree = "<group>";
+		};
+		8E02EF8218D2DAC4006FAB48 /* PKRevealController */ = {
+			isa = PBXGroup;
+			children = (
+				8E02EF8318D2DACE006FAB48 /* PKRevealController.h */,
+				8E02EF8418D2DACE006FAB48 /* PKRevealController.m */,
+				8E02EF8518D2DACE006FAB48 /* PKRevealControllerContainerView.h */,
+				8E02EF8618D2DACE006FAB48 /* PKRevealControllerContainerView.m */,
+				8E02EF8718D2DACE006FAB48 /* UIViewController+PKRevealController.h */,
+				8E02EF8818D2DACE006FAB48 /* UIViewController+PKRevealController.m */,
+			);
+			name = PKRevealController;
+			sourceTree = "<group>";
+		};
+		8E9B615318D6914200886E43 /* RightViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E02EF9118D2DAED006FAB48 /* RightViewController.h */,
+				8E02EF9218D2DAED006FAB48 /* RightViewController.m */,
+				8E02EF9318D2DAED006FAB48 /* RightViewController.xib */,
+				8E9B616D18D691EA00886E43 /* SetViewController.h */,
+				8E9B616E18D691EA00886E43 /* SetViewController.m */,
+				8E9B616F18D691EA00886E43 /* SetViewController.xib */,
+				8E9B617218D691FE00886E43 /* PhotoViewController.h */,
+				8E9B617318D691FE00886E43 /* PhotoViewController.m */,
+				8E9B617418D691FE00886E43 /* PhotoViewController.xib */,
+				8E9B619018D6988A00886E43 /* PhotoCell.h */,
+				8E9B619118D6988A00886E43 /* PhotoCell.m */,
+				8E9B619218D6988A00886E43 /* PhotoCell.xib */,
+				8E9B617718D6921300886E43 /* CameraViewController.h */,
+				8E9B617818D6921300886E43 /* CameraViewController.m */,
+				8E9B617918D6921300886E43 /* CameraViewController.xib */,
+				8E9B619518D699DA00886E43 /* Shop.h */,
+				8E9B619618D699DA00886E43 /* Shop.m */,
+				8E9B619818D699E700886E43 /* 淘宝 */,
+				8E9B617C18D6922C00886E43 /* StateViewController.h */,
+				8E9B617D18D6922C00886E43 /* StateViewController.m */,
+				8E9B617E18D6922C00886E43 /* StateViewController.xib */,
+			);
+			name = RightViewControllers;
+			sourceTree = "<group>";
+		};
+		8E9B619818D699E700886E43 /* 淘宝 */ = {
+			isa = PBXGroup;
+			children = (
+				8E9B619918D699E700886E43 /* baby.jpg */,
+				8E9B619A18D699E700886E43 /* bag.jpg */,
+				8E9B619B18D699E700886E43 /* book.jpg */,
+				8E9B619C18D699E700886E43 /* buty.jpg */,
+				8E9B619D18D699E700886E43 /* clean.jpg */,
+				8E9B619E18D699E700886E43 /* clothe.jpg */,
+				8E9B619F18D699E700886E43 /* decoration.jpg */,
+				8E9B61A018D699E700886E43 /* food.jpg */,
+				8E9B61A118D699E700886E43 /* home.jpg */,
+				8E9B61A218D699E700886E43 /* knife.jpg */,
+				8E9B61A318D699E700886E43 /* life.jpg */,
+				8E9B61A418D699E700886E43 /* mechine.jpg */,
+				8E9B61A518D699E700886E43 /* pet.jpg */,
+				8E9B61A618D699E700886E43 /* phone.jpg */,
+				8E9B61A718D699E700886E43 /* shops.plist */,
+				8E9B61A818D699E700886E43 /* timeline_image_loading.png */,
+				8E9B61A918D699E700886E43 /* timeline_image_loading@2x.png */,
+				8E9B61AA18D699E700886E43 /* toy.jpg */,
+			);
+			path = "淘宝";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E02EF4818D2D7EB006FAB48 /* WifiCameraDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E02EF7518D2D7EB006FAB48 /* Build configuration list for PBXNativeTarget "WifiCameraDemo" */;
+			buildPhases = (
+				8E02EF4518D2D7EB006FAB48 /* Sources */,
+				8E02EF4618D2D7EB006FAB48 /* Frameworks */,
+				8E02EF4718D2D7EB006FAB48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WifiCameraDemo;
+			productName = WifiCameraDemo;
+			productReference = 8E02EF4918D2D7EB006FAB48 /* WifiCameraDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E02EF6318D2D7EB006FAB48 /* WifiCameraDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E02EF7818D2D7EB006FAB48 /* Build configuration list for PBXNativeTarget "WifiCameraDemoTests" */;
+			buildPhases = (
+				8E02EF6018D2D7EB006FAB48 /* Sources */,
+				8E02EF6118D2D7EB006FAB48 /* Frameworks */,
+				8E02EF6218D2D7EB006FAB48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E02EF6A18D2D7EB006FAB48 /* PBXTargetDependency */,
+			);
+			name = WifiCameraDemoTests;
+			productName = WifiCameraDemoTests;
+			productReference = 8E02EF6418D2D7EB006FAB48 /* WifiCameraDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E02EF4118D2D7EB006FAB48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = cn.com.bosma;
+				TargetAttributes = {
+					8E02EF6318D2D7EB006FAB48 = {
+						TestTargetID = 8E02EF4818D2D7EB006FAB48;
+					};
+				};
+			};
+			buildConfigurationList = 8E02EF4418D2D7EB006FAB48 /* Build configuration list for PBXProject "WifiCameraDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E02EF4018D2D7EB006FAB48;
+			productRefGroup = 8E02EF4A18D2D7EB006FAB48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E02EF4818D2D7EB006FAB48 /* WifiCameraDemo */,
+				8E02EF6318D2D7EB006FAB48 /* WifiCameraDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E02EF4718D2D7EB006FAB48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9B61B918D699E700886E43 /* shops.plist in Resources */,
+				8E9B61AF18D699E700886E43 /* clean.jpg in Resources */,
+				8E9B61BC18D699E700886E43 /* toy.jpg in Resources */,
+				8E9B61AC18D699E700886E43 /* bag.jpg in Resources */,
+				8E9B61B818D699E700886E43 /* phone.jpg in Resources */,
+				8E9B61AB18D699E700886E43 /* baby.jpg in Resources */,
+				8E02EF5718D2D7EB006FAB48 /* InfoPlist.strings in Resources */,
+				8E9B617B18D6921300886E43 /* CameraViewController.xib in Resources */,
+				8E02EF9518D2DAED006FAB48 /* RightViewController.xib in Resources */,
+				8E9B61B118D699E700886E43 /* decoration.jpg in Resources */,
+				8E9B61B318D699E700886E43 /* home.jpg in Resources */,
+				8E9B617618D691FE00886E43 /* PhotoViewController.xib in Resources */,
+				8E9B61B718D699E700886E43 /* pet.jpg in Resources */,
+				8E9B619418D6988A00886E43 /* PhotoCell.xib in Resources */,
+				8E9B61B018D699E700886E43 /* clothe.jpg in Resources */,
+				8E02EF9D18D2E490006FAB48 /* LeftViewController.xib in Resources */,
+				8E02EF5F18D2D7EB006FAB48 /* Images.xcassets in Resources */,
+				8E9B61B418D699E700886E43 /* knife.jpg in Resources */,
+				8E9B618018D6922C00886E43 /* StateViewController.xib in Resources */,
+				8E9B61B218D699E700886E43 /* food.jpg in Resources */,
+				8E9B61BA18D699E700886E43 /* timeline_image_loading.png in Resources */,
+				8E9B61B518D699E700886E43 /* life.jpg in Resources */,
+				8E9B61B618D699E700886E43 /* mechine.jpg in Resources */,
+				8E9B61BB18D699E700886E43 /* timeline_image_loading@2x.png in Resources */,
+				8E02EF8118D2D827006FAB48 /* RootViewController.xib in Resources */,
+				8E9B617118D691EA00886E43 /* SetViewController.xib in Resources */,
+				8E9B61AD18D699E700886E43 /* book.jpg in Resources */,
+				8E9B61AE18D699E700886E43 /* buty.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E02EF6218D2D7EB006FAB48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E02EF7018D2D7EB006FAB48 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E02EF4518D2D7EB006FAB48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E02EF5D18D2D7EB006FAB48 /* AppDelegate.m in Sources */,
+				8E02EF9C18D2E490006FAB48 /* LeftViewController.m in Sources */,
+				8E9B617018D691EA00886E43 /* SetViewController.m in Sources */,
+				8E02EF8918D2DACE006FAB48 /* PKRevealController.m in Sources */,
+				8E02EF8A18D2DACE006FAB48 /* PKRevealControllerContainerView.m in Sources */,
+				8E02EF5918D2D7EB006FAB48 /* main.m in Sources */,
+				8E9B617A18D6921300886E43 /* CameraViewController.m in Sources */,
+				8E9B619718D699DA00886E43 /* Shop.m in Sources */,
+				8E02EF9418D2DAED006FAB48 /* RightViewController.m in Sources */,
+				8E9B617F18D6922C00886E43 /* StateViewController.m in Sources */,
+				8E02EF8B18D2DACE006FAB48 /* UIViewController+PKRevealController.m in Sources */,
+				8E9B619318D6988A00886E43 /* PhotoCell.m in Sources */,
+				8E02EF8018D2D827006FAB48 /* RootViewController.m in Sources */,
+				8E9B617518D691FE00886E43 /* PhotoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E02EF6018D2D7EB006FAB48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E02EF7218D2D7EB006FAB48 /* WifiCameraDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E02EF6A18D2D7EB006FAB48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E02EF4818D2D7EB006FAB48 /* WifiCameraDemo */;
+			targetProxy = 8E02EF6918D2D7EB006FAB48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E02EF5518D2D7EB006FAB48 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E02EF5618D2D7EB006FAB48 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8E02EF6E18D2D7EB006FAB48 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E02EF6F18D2D7EB006FAB48 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E02EF7318D2D7EB006FAB48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E02EF7418D2D7EB006FAB48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E02EF7618D2D7EB006FAB48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WifiCameraDemo/WifiCameraDemo-Prefix.pch";
+				INFOPLIST_FILE = "WifiCameraDemo/WifiCameraDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8E02EF7718D2D7EB006FAB48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WifiCameraDemo/WifiCameraDemo-Prefix.pch";
+				INFOPLIST_FILE = "WifiCameraDemo/WifiCameraDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8E02EF7918D2D7EB006FAB48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WifiCameraDemo.app/WifiCameraDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WifiCameraDemo/WifiCameraDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WifiCameraDemoTests/WifiCameraDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8E02EF7A18D2D7EB006FAB48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WifiCameraDemo.app/WifiCameraDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WifiCameraDemo/WifiCameraDemo-Prefix.pch";
+				INFOPLIST_FILE = "WifiCameraDemoTests/WifiCameraDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E02EF4418D2D7EB006FAB48 /* Build configuration list for PBXProject "WifiCameraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E02EF7318D2D7EB006FAB48 /* Debug */,
+				8E02EF7418D2D7EB006FAB48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E02EF7518D2D7EB006FAB48 /* Build configuration list for PBXNativeTarget "WifiCameraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E02EF7618D2D7EB006FAB48 /* Debug */,
+				8E02EF7718D2D7EB006FAB48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E02EF7818D2D7EB006FAB48 /* Build configuration list for PBXNativeTarget "WifiCameraDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E02EF7918D2D7EB006FAB48 /* Debug */,
+				8E02EF7A18D2D7EB006FAB48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E02EF4118D2D7EB006FAB48 /* Project object */;
+}
