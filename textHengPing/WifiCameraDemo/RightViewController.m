@@ -1,7 +1,7 @@
 //
 //  RightViewController.m
 //  WifiCameraDemo
-//  // // // // // //
+//  
 //  Created by bosma on 14-3-14.
 //  Copyright (c) 2014年 cn.com.bosma. All rights reserved.
 //
@@ -30,7 +30,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.navigationController.navigationBarHidden=YES;
     self.navigationController.navigationBarHidden=YES;
     //picker数组数据
     pickerArray = [NSArray arrayWithObjects:
